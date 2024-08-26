@@ -28,11 +28,11 @@ const Hero = () => {
                                 sequence={[
                                     "Hello!",
                                     1000, 
-                                    `I'm a Web Developer`,
+                                    `I'm an aspiring Web Developer`,
                                     1000,
                                     `I'm a programming enthusiast`,
                                     1000,
-                                    `I'm a Frontend Developer`,
+                                    `I'm fluent in JavaScript, React, and Node.js`,
                                     1000
                                 ]}
                                 wrapper="span"
