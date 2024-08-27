@@ -1,8 +1,16 @@
-import React from 'react'
 
-const ProfileImg = () => {
+import Image from "next/image";
+
+const ProfileImg = ({containerStyles, imgSrc}) => {
   return (
-    <div>ProfileImg</div>
+    <div className={`${containerStyles}`}>
+      <Image 
+      src={imgSrc}
+      fill
+      priority
+      alt=''
+      />
+    </div>
   )
 }
 
