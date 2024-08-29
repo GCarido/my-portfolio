@@ -1,6 +1,7 @@
 import ProfileImg from "./ProfileImg"
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Tooltip } from "@nextui-org/tooltip";
 
 import {
     User2,
@@ -87,19 +88,24 @@ const skillData = [
         title: 'tools',
         data: [
             {
-                imgPath: '/about/git.svg'
+                imgPath: '/about/git.svg',
+                name: 'git'
             },
             {
-                imgPath: '/about/vscode.svg'
+                imgPath: '/about/vscode.svg',
+                name: 'visual studio code'
             },
             {
-                imgPath: '/about/adobe-photoshop.svg'
+                imgPath: '/about/adobe-photoshop.svg',
+                name: 'adobe photoshop'
             },
             {
-                imgPath: '/about/adobe-xd.svg'
+                imgPath: '/about/adobe-xd.svg',
+                name: 'adobe XD'
             },
             {
-                imgPath: '/about/trello.svg'
+                imgPath: '/about/trello.svg',
+                name: 'trello'
             }
         ]
     }
@@ -195,7 +201,7 @@ const About = () => {
                                         {/* education */}
                                         <div className="flex flex-col gap-y-6">
                                             <div className="flex gap-x-4 items-center text-[22px] text-primary">
-                                                <GraduationCap size={28}/>
+                                                <GraduationCap size={28} />
                                                 <h4 className="capitalize font-medium">
                                                     {getData(qualificationData, "education").title}
                                                 </h4>
@@ -221,7 +227,52 @@ const About = () => {
                                         </div>
                                     </div>
                                 </TabsContent>
-                                <TabsContent value="skills">skills info</TabsContent>
+                                <TabsContent value="skills">
+                                    {/* skills */}
+                                    <div className="text-center xl:text-left">
+                                        <h3 className="h3 mb-8">What Tech Tools I Use</h3>
+
+                                        <div className="mb-16">
+                                            <h4 className="text-xl font-semibold mb-2">Skills</h4>
+                                            <div className="border-b border-border mb-4"></div>
+                                            {/* skill list */}
+                                            <div>
+                                                {getData(skillData, 'skills').data.map((item, index) => {
+                                                    const { name } = item;
+                                                    return (
+                                                        <div className="w-2/4 text-center xl:text-left mx-auto xl:mx-0" key={index}>
+                                                            <div className="font-medium">{name}</div>
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div>
+                                        </div>
+                                        {/* tools */}
+                                        <div>
+                                            <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
+                                            <div className="border-b border-border mb-4"></div>
+                                            {/* tool lists */}
+                                            <div className="flex gap-x-8 justify-center xl:justify-start">
+                                                {getData(skillData, "tools").data.map((item, index) => {
+                                                    const { imgPath, name } = item;
+                                                    return (
+                                                        <div key={index}>
+                                                            <Tooltip content={name} color="foreground" className="capitalize">
+                                                                <Image
+                                                                    src={imgPath}
+                                                                    width={48}
+                                                                    height={48}
+                                                                    alt=""
+                                                                    priority
+                                                                />
+                                                            </Tooltip>
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </TabsContent>
                             </div>
                         </Tabs>
                     </div>
