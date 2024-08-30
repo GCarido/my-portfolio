@@ -40,9 +40,8 @@ const Hero = () => {
                                 repeat={Infinity}
                             />
                         </div>
-                        <h1 className="h1 mb-4">Hello, my name is Fname Lname</h1>
-                        <p className="subtitle max-w-[490px] mx-auto xl:mx-0">Brief description with insights into myself, my vocational journey,
-                            and what I engage in professional settings.
+                        <h1 className="h1 mb-4">Hello, my name is Gerald Carido</h1>
+                        <p className="subtitle max-w-[490px] mx-auto xl:mx-0">I'm a passionate software developer with a keen interest in crafting efficient and innovative solutions.
                         </p>
                         <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
                             <Link href='/contact'>
@@ -50,9 +49,11 @@ const Hero = () => {
                                     Contact me <Send size={18} />
                                 </Button>
                             </Link>
-                            <Button variant="secondary" className="gap-x-2">
-                                Download CV<Download size={18} />
-                            </Button>
+                            <Link href="https://drive.google.com/file/d/1Pc0WWcuDNfKQvMiD-lM-Ys3NwbxYsfeB/view?usp=sharing" target="_blank">
+                                <Button variant="secondary" className="gap-x-2">
+                                    Download CV<Download size={18} />
+                                </Button>
+                            </Link>
                         </div>
                         {/* socials */}
                         <Socials
@@ -66,14 +67,14 @@ const Hero = () => {
                         <Badge
                             containerStyles="absolute top-[24%] -left-[5rem]"
                             icon={<RiBriefcase4Fill />}
-                            endCountNum={600}
+                            endCountNum={300}
                             badgeText="+ Github Commits"
                         />
                         {/* badge 2 */}
                         <Badge
                             containerStyles="absolute top-[80%] -left-[1rem]"
                             icon={<RiBriefcase4Fill />}
-                            endCountNum={10}
+                            endCountNum={7}
                             badgeText="Projects Made"
                         />
                         <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
