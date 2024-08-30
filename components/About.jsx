@@ -36,7 +36,7 @@ const infoData = [
     },
     {
         icon: <HomeIcon size={20} />,
-        text: 'San Miguel Linao, Talisay City Cebu'
+        text: 'Talisay City Cebu'
     }
 ]
 
@@ -117,7 +117,7 @@ const About = () => {
     }
 
     return (
-        <section className="xl:h-[1000px] pb-12 xl:py-24">
+        <section className="xl:h-[1000px] pb-12 xl:py-24 mb-[100px]">
             <div className="container mx-auto">
                 <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
                     About me
@@ -144,7 +144,10 @@ const About = () => {
                                 <TabsContent value="personal">
                                     <div className="text-center xl:text-left">
                                         <h3 className="h3 mb-4">Proin in ornare mauris vel sollicitudin</h3>
-                                        <p className="subtitle max-w-xl mx-auto xl:mx-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet cursus orci. Sed libero ante, facilisis ut tempus quis, accumsan eu dui. Sed id massa elit. Nam justo mauris, porttitor fringilla consectetur sit amet, commodo et orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer maximus nisi vel egestas mollis. Ut libero nibh, tincidunt et porta sit amet, tincidunt a leo. Etiam sodales nulla ac ultrices venenatis. Fusce condimentum vitae risus eu vestibulum. Quisque rhoncus arcu dapibus, sagittis urna vitae, scelerisque urna. Pellentesque ultrices a erat sit amet porttitor.
+                                        <p className="subtitle max-w-xl mx-auto xl:mx-0 text-justify">My name is Gerald Carido, and I’m an aspiring software developer who enjoys turning ideas into practical and efficient software. My journey into technology started from Junior High School, driven by a fascination with how things work and a desire to bring ideas to life through code.
+                                        </p>
+                                        <p className="subtitle max-w-xl mx-auto xl:mx-0 text-justify">
+                                        This experience not only sharpened my technical skills but also gave me a strong foundation in building user-centric applications that are both efficient and reliable. In professional settings, I’m known for my dedication to continuous learning and my ability to adapt to new technologies quickly. I thrive on challenges that require creative problem-solving, whether it’s optimizing backend systems, designing dynamic web applications, or experimenting with the latest front-end frameworks like React and Next.js.
                                         </p>
                                         {/* icons */}
                                         <div className="grid xl:grid-cols-2 gap-4 mb-12">
