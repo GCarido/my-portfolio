@@ -143,7 +143,7 @@ const About = () => {
                                 {/* personal info */}
                                 <TabsContent value="personal">
                                     <div className="text-center xl:text-left">
-                                        <h3 className="h3 mb-4">Proin in ornare mauris vel sollicitudin</h3>
+                                        <h3 className="h3 mb-4">Get To Know Me!</h3>
                                         <p className="subtitle max-w-xl mx-auto xl:mx-0 text-justify">My name is Gerald Carido, and I’m an aspiring software developer who enjoys turning ideas into practical and efficient software. My journey into technology started from Junior High School, driven by a fascination with how things work and a desire to bring ideas to life through code.
                                         </p>
                                         <p className="subtitle max-w-xl mx-auto xl:mx-0 text-justify">
@@ -163,7 +163,7 @@ const About = () => {
                                         <div className="flex flex-col gap-y-2">
                                             <div className="text-primary">Language Skills</div>
                                             <div className="border-b border-border"></div>
-                                            <div>English, Filipino</div>
+                                            <div>English, Filipino, Japanese {`(Currently learning as a hobby)`}</div>
                                         </div>
                                     </div>
                                 </TabsContent>
