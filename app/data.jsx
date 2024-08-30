@@ -37,16 +37,16 @@ const projectData = [
         category: 'c#',
         name: 'Grade Calculator',
         description: 'Helps college students calculate their current grades and determine the scores needed in activities to achieve their desired course grade for both midterms and finals, allowing input of numerical scores, subject choices, and student details.',
-        link: '/',
-        github: '/'
+        link: '/notice',
+        github: 'https://github.com/GCarido/Grade-Calculator'
     },
     {
         image: '/work/budget-1.png',
         category: 'c#',
         name: 'Easey Budget',
         description: 'Easey Budget is an offline desktop application for individuals and small businesses to manage their finances, track expenses, income, and transactions without needing internet connectivity which also includes the use of a google map feature.',
-        link: '/',
-        github: '/'
+        link: '/notice',
+        github: 'https://github.com/GCarido/EaseyBudget'
     },
 ];
 
