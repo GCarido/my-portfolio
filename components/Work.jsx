@@ -18,9 +18,9 @@ const Work = () => {
         <section className="relative mb-12 xl:mb-48">
             <div className="container mx-auto">
                 {/* text */}
-                <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
+                <div className="max-w-[400px] mx-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col items-center xl:items-start">
                     <h2 className="section-title mb-4">Latest Projects</h2>
-                    <p className="subtitle mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste dignissimos sequi amet facere, minima cum delectus illum reiciendis, libero quibusdam perferendis cumque laudantium, fuga est molestias numquam rem cupiditate architecto.</p>
+                    <p className="subtitle mb-8 text-justify">I’ve worked on a variety of projects, including developing an Attendance Tracking System and a Budget App using C#, Windows Forms, and MySQL, as well as building a Windows desktop application during my Application Developer Internship. My JavaScript projects range from creating a Rock paper scissor game and amazon web project to managing localStorage, implementing class toggling, and designing dynamic grid layouts. I’m also engaged in developing with Next.js and React through this portfolio, where I focus on customizing components, such as cards and tooltips, using Tailwind CSS for both dark and light modes.</p>
                     <Link href="/projects"><Button>All projects</Button></Link>
                 </div>
                 {/* slider */}
