@@ -106,6 +106,10 @@ const skillData = [
             {
                 imgPath: '/about/trello.svg',
                 name: 'trello'
+            },
+            {
+                imgPath: '/about/notion.svg',
+                name: 'notion'
             }
         ]
     }
