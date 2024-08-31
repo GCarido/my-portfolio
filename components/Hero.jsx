@@ -18,7 +18,7 @@ import Socials from "./Socials";
 
 const Hero = () => {
     return (
-        <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom dark:bg-none bg-cover">
+        <section className="py-12 mb-10 xl:py-24 h-[84vh] xl:pt-20 bg-hero bg-no-repeat bg-bottom dark:bg-none bg-cover">
             <div className="container mx-auto">
                 <div className="flex justify-between gap-x-8">
                     {/* text */}
@@ -72,7 +72,7 @@ const Hero = () => {
                         />
                         {/* badge 2 */}
                         <Badge
-                            containerStyles="absolute top-[80%] -left-[1rem]"
+                            containerStyles="absolute top-[85%] -left-[1rem]"
                             icon={<RiBriefcase4Fill />}
                             endCountNum={7}
                             badgeText="Projects Made"
@@ -80,12 +80,12 @@ const Hero = () => {
                         <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
                         <ProfileImg
                             containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
-                            imgSrc="/hero/developer.png"
+                            imgSrc="/hero/profile-one.png"
                         />
                     </div>
                 </div>
                 {/* icon */}
-                <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
+                <div className="hidden lg:flex absolute left-2/4 bottom-44 xl:bottom-1 animate-bounce">
                     <RiArrowDownSLine className="text-3xl text-primary" />
                 </div>
             </div>
