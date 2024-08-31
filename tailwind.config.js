@@ -80,7 +80,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: 'url(/hero/hero-bg.png)',
-        hero_shape: 'url(/hero/shape-1.svg)',
+        hero_shape: 'url(/hero/shape-1-primary.svg)',
         hero_shape2_light: 'url(/hero/shape-2-light.svg)',
         hero_shape2_dark: 'url(/hero/shape-2-dark.svg)',
         about_shape_light: 'url(/about/shape-light.svg)',
