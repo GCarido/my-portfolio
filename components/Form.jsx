@@ -73,7 +73,7 @@ const Form = () => {
             <div className="relative flex items-center">
                 <Textarea
                     id="message"
-                    placeholder="Type your message here..."
+                    placeholder="Type your message here"
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                 />
