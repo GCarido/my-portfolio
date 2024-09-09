@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
             <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
             <p className="subtitle max-w-[400px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veniam tempore ad repellendus nostrum ea iste blanditiis tempora? Ullam ratione nostrum culpa iure sint aperiam itaque expedita quasi cum ea.
+              I'm Gerald Carido, a passionate software developer with a knack for building intuitive and efficient applications. Whether you're looking to collaborate on a project or just want to connect, I'd love to hear from you. Let's create something amazing together!
             </p>
           </div>
           {/* illustration */}
@@ -27,17 +27,17 @@ const Contact = () => {
           <div className="flex flex-col gap-y-4 xl:gap-y-14 mb-12 xl:mb-24 text-base xl:text-lg">
             {/* mail */}
             <div className="flex items-center gap-x-8">
-              <MailIcon size={18} className="text-primary"/>
+              <MailIcon size={18} className="text-primary" />
               <div>geraldcastcarido@gmail.com</div>
             </div>
             {/* address */}
             <div className="flex items-center gap-x-8">
-              <HomeIcon size={18} className="text-primary"/>
+              <HomeIcon size={18} className="text-primary" />
               <div>San Miguel Linao, Talisay City Cebu</div>
             </div>
             {/* Phone */}
             <div className="flex items-center gap-x-8">
-              <PhoneCall size={18} className="text-primary"/>
+              <PhoneCall size={18} className="text-primary" />
               <div>09275929378</div>
             </div>
           </div>
