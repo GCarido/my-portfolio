@@ -38,7 +38,7 @@ const Contact = () => {
             {/* Phone */}
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>09275929378</div>
+              <div>0927-592-9378</div>
             </div>
           </div>
           <Form />
