@@ -67,7 +67,7 @@ const Hero = () => {
                         <Badge
                             containerStyles="absolute top-[24%] -left-[5rem]"
                             icon={<RiBriefcase4Fill />}
-                            endCountNum={300}
+                            endCountNum={400}
                             badgeText="+ Github Commits"
                         />
                         {/* badge 2 */}
