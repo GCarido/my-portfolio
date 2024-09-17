@@ -1,5 +1,13 @@
 const projectData = [
     {
+        image: '/work/pomo-focus-1.png',
+        category: 'react js',
+        name: 'Pomo Focus',
+        description: 'Developed a simple and intuitive Pomodoro timer application designed to help users stay productive and focused during their work sessions. It integrates task management and timer functionalities to structure your workflow into manageable intervals (Pomodoros), with breaks in between, boosting productivity while preventing burnout.',
+        link: 'https://pomodoro-app-jet-three.vercel.app/',
+        github: 'https://github.com/GCarido/pomo-focus'
+    },
+    {
         image: '/work/portfolio-1.png',
         category: 'react js',
         name: 'Web Portfolio',
